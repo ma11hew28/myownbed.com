@@ -1,7 +1,7 @@
 body {
   background-color: #215390;
   color: white;
-  font-family: "Courier New", "Times New Roman", serif;
+  font-family: Tahoma, Helvetica, Verdana, sans-serif;
   text-align: center;
 }
 
@@ -49,6 +49,7 @@ a {
 }
 
 #welcome p:first-of-type {
+  font-family: "LiSong Pro", "Courier New", "Times New Roman", serif;
   font-size: 36px;
   margin-bottom: 50px;
 }
@@ -62,5 +63,6 @@ a {
 }
 
 #welcome p:last-child {
+  font-family: fantasy;
   font-size: 22px;
 }
