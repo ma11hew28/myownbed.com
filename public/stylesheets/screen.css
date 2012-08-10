@@ -65,4 +65,5 @@ a {
 #welcome p:last-child {
   font-family: fantasy;
   font-size: 22px;
+  margin-bottom: 240px;
 }
