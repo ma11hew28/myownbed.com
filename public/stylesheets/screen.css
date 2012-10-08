@@ -1,20 +1,36 @@
 body {
   background-color: #215390;
   color: white;
-  font-family: Tahoma, Helvetica, Verdana, sans-serif;
+  font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: normal;
+  margin: 32px 0;
 }
 
 a {
   color: white;
 }
 
-#welcome > div:first-child {
-  font-family: "Arial Rounded MT Bold", Arial, Helvetica, sans-serif;
-  height: 106px;
-  margin: 240px auto 200px;
-  position: relative;
+input:focus, select:focus, textarea:focus {
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#welcome {
+  margin: 240px auto;
   width: 588px;
+}
+
+#welcome > div:first-child {
+  height: 106px;
+  position: relative;
 }
 
 #welcome div div {
@@ -37,8 +53,6 @@ a {
 }
 
 #welcome hgroup h1 {
-  font-size: 72px;
-  font-weight: normal;
   margin: 0;
 }
 
@@ -51,7 +65,7 @@ a {
 #welcome p:first-of-type {
   font-family: "LiSong Pro", "Courier New", "Times New Roman", serif;
   font-size: 36px;
-  margin-bottom: 50px;
+  margin: 200px 0 50px;
 }
 
 #welcome p:first-of-type:before {
@@ -65,5 +79,52 @@ a {
 #welcome p:last-child {
   font-family: fantasy;
   font-size: 22px;
-  margin-bottom: 240px;
+}
+
+
+#bid_a_bed {
+  margin: 120px auto;
+  width: 600px;
+}
+
+#bid_a_bed > p {
+  font-size: 28px;
+}
+
+#bid_a_bed > form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+#bid_a_bed > form > input, #bid_a_bed > form > button, #status {
+  border-radius: 6px;
+  margin: 19px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+#bid_a_bed > form > input, #bid_a_bed > form > button {
+  border: 1px solid black;
+  display: block;
+  font-size: 14px;
+  height: 19px;
+}
+
+#bid_a_bed > form > button {
+  background-color: #ddd;
+  height: 40px;
+  margin-top: 30px;
+  width: 320px;
+}
+
+#status {
+  margin-bottom: -11px;
+}
+
+#status.success {
+  background-color: green;
+}
+
+#status.error {
+  background-color: red;
 }
