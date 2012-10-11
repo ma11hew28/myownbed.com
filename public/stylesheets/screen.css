@@ -23,33 +23,32 @@ input:focus, select:focus, textarea:focus {
   display: none;
 }
 
-#welcome {
-  margin: 240px auto;
-  width: 588px;
-}
-
-#welcome > div:first-child {
-  height: 106px;
-  position: relative;
-}
-
-#welcome div div {
-  border-width: 9px;
-  height: 66px;
+.left_corner, .right_corner {
+  border-width: 14px;
+  height: 56px;
   position: absolute;
-  width: 48px;
+  width: 35px;
 }
 
-#welcome div div:first-child {
+.left_corner {
   border-style: none none solid solid;
   bottom: 0;
   left: 0;
 }
 
-#welcome div div:last-of-type {
+.right_corner {
   border-style: solid solid none none;
   right: 0;
-  top: -4px;
+}
+
+#welcome {
+  margin: 240px auto;
+  width: 614px;
+}
+
+#welcome > div {
+  height: 108px;
+  position: relative;
 }
 
 #welcome hgroup h1 {
@@ -62,29 +61,42 @@ input:focus, select:focus, textarea:focus {
   margin: 2px 0 0 54px;
 }
 
-#welcome p:first-of-type {
+#welcome > p {
+  font-family: fantasy;
+  font-size: 22px;
+}
+
+#welcome > p:first-of-type {
   font-family: "LiSong Pro", "Courier New", "Times New Roman", serif;
   font-size: 36px;
   margin: 200px 0 50px;
 }
 
-#welcome p:first-of-type:before {
+#welcome > p:first-of-type:before {
   content: "- ";
 }
 
-#welcome p:first-of-type:after {
+#welcome > p:first-of-type:after {
   content: " -";
-}
-
-#welcome p:last-child {
-  font-family: fantasy;
-  font-size: 22px;
 }
 
 
 #bid_a_bed {
   margin: 120px auto;
+  position: relative;
   width: 600px;
+}
+
+#bid_a_bed > h1 {
+  margin-left: 90px;
+}
+
+#bid_a_bed > a {
+  display: block;
+  height: 84px;
+  left: 54px;
+  position: absolute;
+  width: 84px;
 }
 
 #bid_a_bed > p {
