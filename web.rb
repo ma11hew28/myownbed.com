@@ -1,5 +1,5 @@
-require 'sinatra'
 require 'net/http'
+require 'sinatra'
 
 # Now, only one domain (myownbed.herokuapp.com) points to this app.
 # # Permanently redirect extra domains that point to this app to the main one.
